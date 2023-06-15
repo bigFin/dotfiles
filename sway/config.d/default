@@ -215,7 +215,7 @@ bindsym $mod+r mode "resize"
 # App shortcuts
 #
     bindsym $mod+n exec thunar
-    bindsym $mod+w exec google-chrome 
+    bindsym $mod+w exec google-chrome-stable 
 #
 # Screenshots
 #
