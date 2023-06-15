@@ -1,0 +1,66 @@
+=============== Jun 15, 2023 (EDT) ===============
+14:05:34.441163 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+=============== Jun 15, 2023 (EDT) ===============
+14:05:34.441472 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:05:34.441551 table@recovery F·4
+14:05:34.441559 table@recovery recovering @666
+14:05:34.443073 table@recovery recovered @666 Gk·4862 Ck·0 Cb·0 S·83466 Q·673690
+14:05:34.443090 table@recovery recovering @669
+14:05:34.456528 table@recovery recovered @669 Gk·22209 Ck·0 Cb·0 S·2134514 Q·672139
+14:05:34.456547 table@recovery recovering @670
+14:05:34.472727 table@recovery recovered @670 Gk·37295 Ck·0 Cb·0 S·2128559 Q·673690
+14:05:34.472752 table@recovery recovering @671
+14:05:34.475297 table@recovery recovered @671 Gk·5275 Ck·0 Cb·0 S·456027 Q·672144
+14:05:34.475312 table@recovery recovered F·4 N·69641 Gk·69641 Ck·0 Q·673690
+14:05:34.480585 version@stat F·[4] S·4MiB[4MiB] Sc·[1.00]
+14:05:34.483070 db@open opening
+14:05:34.483211 journal@recovery F·1
+14:05:34.483860 journal@recovery recovering @667
+14:05:34.500812 memdb@flush created L0@673 N·3729 S·131KiB "\x00\x00\x00..son,v673757":"\x0e\x00\x00..dbx,v677021"
+14:05:34.502247 version@stat F·[5] S·4MiB[4MiB] Sc·[1.25]
+14:05:34.505132 db@janitor F·8 G·1
+14:05:34.505157 db@janitor removing manifest-668
+14:05:34.505227 db@open done T·22.130617ms
+14:05:34.505385 table@compaction L0·5 -> L1·0 S·4MiB Q·677421
+14:05:34.561239 table@build created L1@675 N·22186 S·2MiB "\x00\x00\x00..ore,v353581":"\x00\x00\x00...md,v499552"
+14:05:34.613902 table@build created L1@676 N·37381 S·2MiB "\x00\x00\x00...md,v500532":"\rd\xfd..\x91\xc0\x98,v535225"
+14:05:34.619971 table@build created L1@677 N·5358 S·490KiB "\re\xad..;\x8a\xc7,v594":"\x0e\x00\x00..als,v635645"
+14:05:34.620017 version@stat F·[0 3] S·4MiB[0B 4MiB] Sc·[0.00 0.05]
+14:05:34.621191 table@compaction committed F-2 S-168KiB Ke·0 D·8445 T·115.71369ms
+14:05:34.621276 table@remove removed @673
+14:05:34.621336 table@remove removed @671
+14:05:34.621489 table@remove removed @670
+14:05:34.621715 table@remove removed @669
+14:05:34.621753 table@remove removed @666
+14:12:36.374432 db@close closing
+14:12:36.376589 db@close done T·2.154472ms
+=============== Jun 15, 2023 (EDT) ===============
+14:13:26.328092 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:13:26.329251 version@stat F·[0 3] S·4MiB[0B 4MiB] Sc·[0.00 0.05]
+14:13:26.329275 db@open opening
+14:13:26.329337 journal@recovery F·1
+14:13:26.330094 journal@recovery recovering @674
+14:13:26.446389 memdb@flush created L0@678 N·64868 S·2MiB "\x00\x00\x00..ore,d682179":"\x0e\x00\x00..als,d716346"
+14:13:26.446684 version@stat F·[1 3] S·6MiB[2MiB 4MiB] Sc·[0.25 0.05]
+14:13:26.456761 db@janitor F·6 G·0
+14:13:26.456786 db@open done T·127.504714ms
+14:49:23.136445 db@close closing
+14:49:23.136750 db@close done T·297.143µs
+=============== Jun 15, 2023 (EDT) ===============
+16:26:15.863839 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:26:15.864811 version@stat F·[1 3] S·6MiB[2MiB 4MiB] Sc·[0.25 0.05]
+16:26:15.864838 db@open opening
+16:26:15.864903 journal@recovery F·1
+16:26:15.865508 journal@recovery recovering @679
+16:26:15.869180 memdb@flush created L0@681 N·1 S·146B "\x04de..can,v742291":"\x04de..can,v742291"
+16:26:15.869552 version@stat F·[2 3] S·6MiB[2MiB 4MiB] Sc·[0.50 0.05]
+16:26:15.877633 db@janitor F·7 G·0
+16:26:15.877661 db@open done T·12.814408ms
+17:24:28.372249 table@compaction L0·2 -> L1·3 S·6MiB Q·742293
+17:24:28.437779 table@build created L1@684 N·74 S·1KiB "\x03HU..ion,v673668":"\npr..ion,v564298"
+17:24:28.437826 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+17:24:28.440156 table@compaction committed F-4 S-6MiB Ke·0 D·129720 T·59.504712ms
+17:24:28.440410 table@remove removed @678
+17:24:28.440598 table@remove removed @675
+17:24:28.440773 table@remove removed @676
+17:24:28.440829 table@remove removed @677
