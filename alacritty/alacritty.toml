@@ -1,5 +1,5 @@
 live_config_reload = true
-import = ["/home/fin/.config/alacritty/rose-pine-dawn.toml"]
+import = ["/home/fin/.config/alacritty/rose-pine.toml"]
 #import = ["/home/fin/.config/alacritty/rose-pine.toml"]
 
 
