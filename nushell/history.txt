@@ -1,0 +1,340 @@
+nu init
+chsh /home/fin/.cargo/bin/nu
+nvim /etc/shells
+sudo nvim /etc/shells
+exit
+nu
+chsh /home/fin/.cargo/bin/nu
+sudo chsh /home/fin/.cargo/bin/nu
+chsh: /home/fin/.cargo/bin/nu
+sudo chsh: /home/fin/.cargo/bin/nu
+sudo nvim /etc/shells
+chsh -s /home/fin/.cargo/bin/nu
+neofetch
+neofetcj
+neofetch
+nvim .config/sway/config
+nvim .config/sway/config.d/default
+nvim .config/sway/config.d/application_defaults
+cd .config/sway/
+nvim
+nvim /usr/share/sddm/scripts/
+nvim /usr/lib/sddm/sddm.conf.d/default.conf
+sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf
+nvim /etc/sddm.conf.d/10-endeavouros.conf
+nvim /etc/sddm.conf
+cd /usr/share/sddm/themes/based/
+ls
+ls faces/
+nvim theme.conf
+cd SimpleControls/
+ls
+cd ..
+ls
+cd ..
+cd endeavouros/
+ls
+cargo install viu
+nvim screenshot.png
+nvim theme.conf
+viu screenshot.png
+nvim .bashrc
+source .bashrc
+nvim .bashrc
+source .bashrc
+nvim .bashrc
+less .bashrc
+nvim .config/nushell/env.nu
+source .config/nushell/env.nu
+less ~/.bashrc
+viu screenshot.png
+cargo install viu
+export /home/fin/.cargo/bin
+exit
+viu 
+cd 
+cd e
+cd endeavouros/
+cd /usr/share/sddm/themes/based/
+cd ..
+cd endeavouros/
+viu
+viu scr
+viu screenshot.png
+exit
+nvim .config/sway/config.d/application_defaults
+nvim .config/sway/config.d/autostart_applications
+nvim .config/autostart/
+nvim .config/sway/config
+nvim  ~/.config/sway/scripts/import-gsettings<\n>
+nvim .config/sway/config
+nvim  ~/.config/sway/scripts/import-gsettings<\n>
+nvim .config/sway/config.d/autostart_applications
+dpkg -l lightdm
+dpkg
+pacman -Qi lightdm
+pacman -Qi sddm
+nvim /etc/sddm.conf
+nvim /etc/sddm.conf.d/kde_settings.conf
+sudo nvim /etc/sddm.conf.d/kde_settings.conf
+ls
+cd nvim /etc/sddm.conf.d/
+cd nvim /etc/sddm.conf.d
+cd /etc/sddm.conf.d
+ls
+cd ..
+ls
+nvim sddm.con
+nvim sddm.conf
+nvim sway/config
+nvim sway/config.d/50-systemd-user.conf
+ls
+:q
+ls sway/
+cd ..
+cd
+cd .config/sway/
+ls
+viu swaylock.png
+q
+ls
+viu sway.png
+mv sway.png sway.png.bk
+mv swaylock.png swaylock.png.bk
+cp /Storage/Backgrounds/Shogoki.png sway.png
+cp `~/Downloads/dogeManyface 2 (2).jpg.png` swaylock.png
+ls
+viu swaylock.png
+:q
+cargo install carbonyl
+$ npm install --global carbonyl<\n>$ carbonyl https://github.com
+npm
+npm install --global carbonyl
+sudo npm install --global carbonyl
+carbonyl gitlab.com
+carbonyl https://github.com
+cargo install ripgrep
+cargo update
+cargo-update
+cargo update
+update 
+cargo install cargo-update
+cargo-update
+cargo-update -a
+cargo-install-update -a
+cargo-install-update
+cargo-install-update install-update
+cargo-install-update install-update --all
+cargo help
+cargo --list
+cargo --list package
+nvim .config/nvim-config/init.lua
+nvim .config/nvim/init.lua
+sway-interactive-screenshot 
+nvim .config/alacritty/alacritty.toml
+yay -S tabby
+tabby --no-sandbox
+yay -Ss xdg-desktop-portal
+yay -R tabby
+docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B
+docker run -it -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B
+yay -S docker
+docker run -it -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B
+systemctl enable --now docker.socket
+docker run -it -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B
+systemctl enable --now docker.service
+docker run -it -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B
+systemctl restart systemd
+systemctl restart systemd.daemon
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo usermod -aG docker fin
+cd .config/nvim/
+git pull
+git add .
+git commit -m "gen"
+git push
+git pull
+nvim
+nvim init.lua
+git pull
+nvim
+fzf
+fzfz
+fzf
+clear
+cd /Storage/
+fzf
+yay -Ss fzf
+fzf
+cd /Code/
+mkdir /aiiReplicationLayer
+mkdir aiiRL
+cd aiiRL
+nvim readme.md
+ls
+cd ..
+cargo new aiiRL
+cd aiiRL/
+cargo init
+nvim Cargo.toml
+nvim src/main.rs
+nvim src/types.rs
+nvim src/main.rs
+git add .
+nvim
+git init
+git add .,
+git config --global --add safe.directory /Storage/Code/aiiRL
+git add .,
+git add .
+nvimg
+nvim
+nvim /Code/gofluxcsv/
+exit
+nvim src/main.rs
+git init --initial-branch=main<\n>git remote add origin git@gitlab.com:avenueintelligence/aiirl.git<\n>git add .<\n>git commit -m "Initial commit"<\n>git push --set-upstream origin main
+git push
+git push --set-upstream origin main
+git branch main
+git push --set-upstream origin main
+nvim readme.md
+git add .
+git commit -m "readme"
+git push
+git config --global push.autoSetupRemote true
+git push
+git push --set-upstream origin main
+git config --global push.autoSetupRemote false
+git push --set-upstream origin main
+git branch -a
+git checkout main
+git branch -r main
+git branch -remoce main
+git branch -d master
+git branch -a
+nvim readme.md
+git add .
+git commit -m "readme"
+git push
+nvim readme.md
+git add .
+git commit -m "readme"
+git push
+ls
+nvim src/server.rs
+mv src/server.rs src/serverPostgres.rs
+nvim src/server.rs
+nvim read
+nvim readme.md
+cargo install fd
+cargo install fd-find
+sway-interactive-screenshot 
+ping 192.168.4.82
+ssh fin@192.168.4.82
+ssh fin@192.168.4.73
+nvim .tabby-client/agent/config.toml
+nvim
+nvim .tabby-client/agent/config.toml
+fd
+cd /Storage/logseq/
+nvim
+ls
+docker ps -a
+eos-update --yay
+sudo reboot now
+sudo shutdown now
+telnet tent.local
+ping Tent.local
+systemctl status avahi-daemon
+systemctl restart avahi-daemon
+ping Tent.local
+cp /etc/nsswitch.conf /etc/nsswitch.conf.bk
+sudo cp /etc/nsswitch.conf /etc/nsswitch.conf.bk
+sudo nvim /etc/nsswitch.conf
+systemctl restart avahi-daemon
+systemctl status avahi-daemon
+ping Tent.local
+nvim 
+pio run -t clean
+tms config --paths /Code/*
+tms
+yay -Ss platformio
+bash
+exit
+tmux
+tms config --paths /Storage/Code/*
+:q
+cd /Code/modularController/
+ls
+pwd
+pio run -t clean
+pio
+cd /Code/
+curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py<\n>python3 get-platformio.py
+platformio
+bash platformio
+systemctl status avahi-daemon
+nvim /etc/nsswitch.conf
+sudo nvim /etc/nsswitch.conf
+systemctl restart avahi-daemon
+systemctl status avahi-daemon
+avahi-browse --all --ignore-local --resolve --terminate
+systemctl status avahi-daemon
+systemctl restart avahi-daemon
+bash
+cd /Code/modularcontroller/
+ls
+platformio
+source ~/.bash_profile
+ln -s ~/.platformio/penv/bin/platformio ~/.local/bin/platformio<\n>ln -s ~/.platformio/penv/bin/pio ~/.local/bin/pio<\n>ln -s ~/.platformio/penv/bin/piodebuggdb ~/.local/bin/piodebuggdb
+sudo ln -s ~/.platformio/penv/bin/platformio ~/.local/bin/platformio<\n>ln -s ~/.platformio/penv/bin/pio ~/.local/bin/pio<\n>ln -s ~/.platformio/penv/bin/piodebuggdb ~/.local/bin/piodebuggdb
+tms config --paths /Storage/Code/
+tms config --paths /Storage/Code/*
+cargo update
+cargo install cargo-update
+cargo-update -a
+cargo-update
+tms
+cd /Code/modularcontroller/
+;s
+ls
+pio
+platformio
+pio
+fzf
+pio run -t clean
+pio run -t upload -e Tent
+nvim platformio.ini
+pio run -t upload -e Tent
+nvim platformio.ini
+pio run -t upload -e Tent
+nvim platformio.ini
+pio run -t upload -e Tent
+pio run -t clean
+nvim platformio.ini
+pio run -t upload -e Tent
+nvim platformio.ini
+pio run -t upload -e Tent
+nvim platformio.ini
+git status
+git branch -a
+pio run -t upload -e Tent
+docker ps -a
+pio run -t upload -e Tent
+telnet tent.local
+nvim /etc/nsswitch.conf
+sudo nvim /etc/nsswitch.conf
+source /etc/nsswitch.conf
+bash
+quit
+exit
+cd .config/
+git pull
+git branch -a
+cd .config
+nvim nushell/env.nu
+curl -sS https://starship.rs/install.sh | sh
+nvim nushell/env.nu
+nvim nushell/config.nu
+cd .config/
