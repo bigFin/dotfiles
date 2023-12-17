@@ -1,0 +1,1195 @@
+zoxide init nushell
+$nu.env-path
+nvim /home/fin/.config/nushell/env.nu
+$nu.config-path
+nvim $nu.config-path
+zoxide init nushell
+nvim .config/nushell/
+nvim .config/nushell/env.nu
+nvim .config/nushell/config.nu
+nvim
+nvim .zoxide.nu
+nvim .config/
+nvim .config/alacritty/alacritty.toml
+chsh -s nu
+echo nu
+alias nu
+which nu
+chsh -s /home/fin/.cargo/bin/nu
+exit
+config nu
+which nu
+ls /home/fin/.cargo/bin/nu
+nvim /etc/shells
+sudo nvim /etc/shells
+chsh -s /home/fin/.cargo/bin/nu
+exit
+nu
+clear
+ls
+nvim /etc/shells
+ls
+logout
+sudo reboot now
+yay -Ss tabby
+tabby --no-sandbox
+sudo reboot now
+tabby --no-sandbox
+tabby --debug
+tabby --no-sandbox
+fzf
+ls
+fzf isrPrototype
+fzf
+cd /Code
+fzf
+docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B
+docker run -it --gpus all -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+docker run -it -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1
+yay -Ss nvidia-container-toolkit
+docker run -it --gpus all -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+yay -S nvidia-container-toolkit
+docker run -it --gpus all -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+docker ps -a
+docker rm tabby
+docker ls
+docker ls -a
+docker ps -a
+docker ps -l
+docker rm tabbyml/tabby
+docker run -it --gpus all -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+systemctl restart dockerd
+systemctl restart docker 
+systemctl restart dockerd
+docker run -it --gpus all -p 8080:8080 -v /Code/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+dua-cli
+dust
+cargo install dust
+dust
+du
+cargo install du-dust
+du-dust
+dust
+nvim .config/nushell/config.nu
+nvim .config/nushell/env.nu
+source .config/nushell/env.nu
+dust
+cd /SSD500/
+dust
+rm rf /SSD500/VM/Kali/*
+sudo rm rf /SSD500/VM/Kali/*
+sudo rm -rf /SSD500/VM/Kali/*
+dust
+df
+df /SSD500/
+rm -rf /SSD500/.Trash-1000/files/models--TheBloke--OpenHermes-2.5-Mistral-7B-GGUF/
+df /SSD500/
+dust
+df /SSD500/
+vim .config/nvim-config/init.lua
+rm -rf .config/nvim-config/
+cd .config/nvim/
+vim init.lua
+nvim init.lua
+cd /Code/jupyterreports/
+nvim DVBA_Month_end_Report_231102.ipynb
+nvim test.md
+rm test.md
+cd ..
+nvim
+pio run -t compiledb
+clear
+alias fzf f
+alias fzf="f"
+alias fzf = "f"
+alias fzf = f
+f
+alias f = fzf
+f
+fzf
+/usr/bin/fzf
+alias fzf = /usr/bin/fzf
+alias f = /usr/bin/fzf
+f
+clear
+cargo install --lis
+cargo install --list
+cd .config
+mkdir cargo
+cd cargo/
+cargo install --list > cargo_packages.txt
+ls
+cargo install --list >> cargo_packages.txt
+ls
+xargs -n 1 cargo install < cargo_packages.txt
+cargo install --list > cargo_packages.txt
+cargo install --list > ./cargo_packages.txt
+ls
+cargo install --list | tee cargo_packages.txt
+ls
+nvim cargo_packages.txt
+cd ..
+git add cargo/
+git add nushell/
+git add nvim/
+git add polybar/
+git add alacritty/
+git add nvim-treesitter/
+git add starship.toml
+git add rofi/
+yay -R termius
+yay -R terminus
+rm -rf Termius/
+ls
+git add tms/
+git add tmux/
+git rm tabby
+git commit -m "oxidized"
+git push
+cat nushell/history.txt
+git rm nushell/history.txt
+git rm nushell/history.txt --cached
+git commit -m "oxidized"
+git push
+ls tmux/
+cd .config/
+cd .config/nvim
+git add .
+git commit -m "tabby"
+git push
+git pull
+git config --global --rebase
+git pull
+git config --global pull.rebase true
+git pull
+ls
+nvim init.lua
+git status
+nvim init.lua
+git add .
+git commit -m "tabby"
+git push
+git push origin HEAD:origin/lua
+git push origin HEAD:refs/heads/origin/lua
+nvim init.lua
+git branch -a
+git push
+git push origin HEAD:lua
+nvim /etc/lightdm/slick-greeter.conf
+fzf
+cd /SSD500/
+fzf
+cd Backgrounds/
+ls
+xclip -selection c < dogeManyface.jpg
+readlink dogeManyface.jpg
+sudo nvim /etc/lightdm/slick-greeter.conf
+realpath dogeManyface.jpg
+sudo reboot now
+sudo nvim /etc/lightdm/slick-greeter.conf
+cd /Code/
+mkdir aoc23
+cd aoc23/
+git init
+mkdir d1
+git add .
+cd d1/
+cd /Code/gofluxcsv/
+ls
+go run export.go
+cd ..
+cd ai-stack/
+ls
+git rm .vscode/
+git rm -r .vscode/
+ls -a
+git add .
+git commit -m "vsc*de"
+git push
+git pull
+git add .
+git commit -m "vsc*de"
+git push
+nvim input.txt
+nvim input.txt
+cargo new aocd1
+ls
+nvim aocd1/Cargo.toml
+ls aocd1/
+nvim aocd1/src/main.rs
+cargo build --release
+cd aocd1/
+cargo build --release
+cargo run --release -- ../input.txt
+nvim src/main.rs
+cargo run --release -- ../input.txt
+nvim src/main.rs
+nvim ../input.txt
+cargo run --release -- ../input.txt
+nvim src/main.rs
+cargo run --release -- ../input.txt
+nvim src/main.rs
+cargo run --release -- ../input.txt
+nvim src/main.rs
+cargo run --release -- ../input.txt
+cd ..
+git add .
+git remote add origin git@github.com:bigFin/AdventOfCode2023.git<\n>  git branch -M main<\n>  git push -u origin main
+git push
+git push --set-upstream origin main
+git init
+git add .
+got push
+git push
+git push --set-upstream origin main
+git add .
+git commit -m "readme"
+git push
+cargo run --release -- ../input.txt
+cd d
+cargo run --release -- ../input.txt
+cd d1/
+ls
+cd ..
+mv d1/aocd1/ ./
+ls
+cd aocd1/
+ls
+cd ..
+mv aocd1/* ./
+cargo run --release -- ../input.txt
+cargo run --release -- ./input.txt
+cargo run --release -- input.txt
+ls
+cargo build --release
+cargo run --release -- input.txt
+ls
+nvim Cargo.toml
+cargo run --release -- input.txt
+cargo build --release
+cargo run --release -- input.txt
+ls
+cargo run --release -- ./input.txt
+ls
+mv target/ d1/
+mv src d1/
+mv Cargo.lock d1/
+mv Cargo.toml d1/
+ls
+ls aocd1
+rm -r aocd1/
+ls
+cd d1
+cargo build --release
+cargo run --release -- ./input.txt
+cd ..
+git add .
+cd d1
+ls
+nvim src/main.rs
+cargo run --release -- ./input.txt
+nvim src/main.rs
+cargo run --release -- ./input.txt
+nvim src/main.rs
+cargo run --release -- ./input.txt
+nvim src/main.rs
+cargo run --release -- ./input.txt
+cd ..
+cd d1/
+nvim src/main.rs
+cargo run --release -- ./input.txt
+cd ..
+git add .
+git commit -m "cleaner rust?"
+git push
+nvim src/main.rs
+nvim d1/src/main.rs
+cargo run --release -- ./input.txt
+./d1 cargo run --release -- ./input.txt
+cd /d1 cargo run --release -- ./input.txt 
+cd d1
+cargo run --release -- ./input.txt
+nvim src/main.rs
+cargo run --release -- ./input.txt
+cd /Code/aoc23/d1/
+cargo run --release -- ./input.txt
+clear
+cargo run --release -- ./input.txt
+nvi
+nvim
+cd 
+cd aocd1/
+cd **
+cd 
+cd /Code/aoc23/
+cargo init d2
+cd d2
+ls
+nvim cargo.toml
+nvim src/main.rs
+nvim ../.gitignore
+ls d1
+ls ../d1/
+nvim ../.gitignore
+git rm target
+git rm target ../d1/target/
+git rm -r target ../d1/target/
+git rm -r ../d1/target/
+git rm -r target/
+nvim
+git add .
+docker run -it --gpus all -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+docker run -it --gpus all -p 8080:8080 -v /Storage/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+docker ps -a
+docker rm tabbyml/tabby
+docker ps -a
+docker list
+docker --help
+docker ps -a
+docker rm 0b0b68957b4c
+docker rm 65d047bae2b4
+docker ps -a
+docker rm 19749ef7461e
+docker ps -a
+docker container prune
+docker ps -a
+docker stop tabbyml/tabby
+docker stop 
+docker stop 82c50de419da 
+docker stop tabbyml/tabby
+docker container prune
+docker ps -a
+nvim
+nvim input.txt
+cargo build --release
+nvim 
+cargo build --release
+nvim 
+cargo build --release
+nvim 
+cargo build --release
+nvim 
+nvim src/main.rs
+cargo build --release
+nvim src/main.rs
+cargo build --release
+nvim src/main.rs
+cargo build --release
+nvim src/main.rs
+cargo build --release
+cargo run --release -- ./input.txt 12 13 14
+ls
+tail input.txt
+cargo run ./input.txt 12 13 14
+nvim src/main.rs
+cargo run ./input.txt 12 13 14
+cd /Code/aoc23/d2
+cargo run ./input.txt 12 13 14
+nvim src/main.rs
+cargo run ./input.txt 12 13 14
+nvim src/main.rs
+mv input.txt test.txt
+nvim input.txt
+cargo run ./test.txt 12 13 14
+cargo run ./input.txt 12 13 14
+git add .
+git commit -m "flawed logic, sums all matches on the line"
+cargo run ./input.txt 12 13 14
+git add .
+git commit -m "push if colour is within limit"
+git push
+nvim src/main.rs
+cd /Code/aoc23/
+yay -Ss ocaml
+cd /Code/aoc23/
+yay -S ocaml
+mkdir d2.ml
+mv d2.ml to d2ml
+mv d2.ml d2ml
+ls
+cd d2ml/
+nvim program.ml
+ocamlopt -o program program.ml
+nvim program.ml
+yay -Ss opam
+yay -S opam
+cp ../d2/input.txt ./
+ls
+ocamlopt -o program program.ml
+nvim program.ml
+ocamlopt -o program program.ml
+nvim program.ml
+ocamlopt -o program program.ml
+opam
+:w
+nvim program.ml
+systemctl restart opam
+opam
+opam init
+nvim
+cd /Code/aoc23/
+cd d2ml/
+ls
+ocamlopt -o program program.ml
+cd /Code/aoc23/
+ocamlopt -o program program.ml
+cd d2ml/
+ocamlopt -o program program.ml
+ocaml -o main program.ml
+ocaml main program.ml
+ocaml -o main program.ml
+ocaml -o main ./program.ml
+ocaml main ./program.ml
+ocaml ../d2ml program.ml
+ocaml -o main program.ml
+ls
+programm input.txt 12,13,14
+program input.txt 12,13,14
+./program input.txt 12,13,14
+./program main input.txt 12,13,14
+./program input.txt 12,13,14
+./program input.txt 12 13 14
+nvim program.ml
+nvim
+tms config --paths /Code/*
+cd d2ml/
+ls
+yay -Ss ocamlformat-rpc
+yay -S ocaml-ocamlformat-rpc-lib
+yay
+yay -Ss dune
+yay -S dune
+yay -S ocaml-ocamlformat-rpc-lib
+yay -S ocaml
+yay -Ss ocaml
+yay -Ss ocaml-base
+yay -S ocaml-base
+yay -S ocaml-ocamlformat-rpc-lib
+yay -Ss ocaml
+yay -S ocaml-ocamlformat-rpc-lib
+opam init -y
+y
+yay -S ocaml-ocamlformat-rpc-lib
+eos-update --yay
+yay -R jellyfin
+yay -R jellyfin-server3-git
+yay -R jellyfin-server-git
+yay -R jellyfin-git
+neofetch
+tms
+ls
+la
+source env/bin/activate
+python source env/bin/activate
+source env/bin/activate
+python -m vitualenv ./
+python -m virtualenv ./ 
+python -m pip install virtualenv
+python3 -m pip install virtualenv
+python3 -m virtualenv ./ 
+yay -Ss virtualenv
+yay -S python-virtualenv
+python -m virtualenv ./ 
+source env/bin/activate.nu
+python3.11 -m pip install virtualenv<\n>python3.11 -m virtualenv env_nu <\n>overlay use env_nu/bin/activate.nu<\n>pip install -r requirements.txt 
+python3.11 -m virtualenv env_nu 
+source env/bin/activate.nu
+source env_nu/bin/activate.nu
+overlay use env_nu/bin/activate.nu
+pip install -r requirements.txt <\n>
+source env_nu/bin/activate.nu
+overlay use env_nu/bin/activate.nu
+deactivate
+overlay use env_nu/bin/activate.nu
+jupyter lab
+jupyter run
+source env_nu/bin/activate.nu
+jupyter run
+cd /Code/jupyterreports/
+source env_nu/bin/activate.nu
+exit
+tmux session delete
+ls
+docker ps -a
+make up
+make reset
+make up
+ls
+docker ps -a
+nvim
+cargo install htmx-lsp
+nvim
+sudo npm install -g @tailwindcss/language-server
+nvim
+eos-update --yay
+tms config --paths /Storage/logseq/
+tms config --paths /Code/*
+cd /Storage/logseq/
+yay -Syyu
+exit
+nvim /etc/dracut.conf.d/resume.conf
+sudo dracut-rebuild 
+lsblk
+nvim /etc/fstab
+mnt /dev/sdb5 /mnt/
+mount /dev/sdb5 /mnt/
+sudo
+sudo mount /dev/sdb5 /mnt/
+sudo chmod 600 /dev/sdb5
+sudo mkswap /dev/sdb5
+sudo umount /dev/sdb5
+sudo swapon
+sudo swapon /dev/sdb5
+sudo findmnt -no UUID -T /swapfile
+sudo findmnt -no UUID -T /dev/sdb5
+less /etc/fstab
+cat /etc/fstab
+sudo vim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+hybernate
+sudo dracut-rebuild 
+sudo reinstall-kernels
+<\n>sudo systemctl hibernate
+sudo reboot now
+<\n>sudo systemctl hibernate
+nvim
+nvim test.norg
+ls
+nvim `Template/Daily Template.md`
+nvim
+git add .
+nvim
+nvim
+nvim init.lua
+nvim
+cd journals/
+ls
+cd ..
+cd journal/
+ls
+cd ..
+cd journals
+nvim
+git add .
+nvim .gitignore
+git add .
+cd journals
+cd /SSD500/logseq/
+fzf 231206
+git add .
+nvim ~/.config/nushell/config.nu
+exit
+clear
+:q
+nvim ~/.config/nushell/config.nu
+git add .
+git commit -m "pre november push"
+clear
+cd /Code/
+jupyterGitlabCI
+git clone https://gitlab.com/pages/jupyterbook ./jupyterGitlabCI
+cd jupyterGitlabCI/
+ls
+ln -s `../jupyterreports/231205 Month_end_Report_FlinFlon.ipynb` ./notebook.ipynb
+ls
+nvim notebooks.ipynb
+mv notebook.ipynb notebooks.ipynb
+mv -f notebook.ipynb notebooks.ipynb
+ls
+nvim markdown.md
+rm -rf .git/
+git init --initial-branch=main<\n>git remote add origin git@gitlab.com:avenueintelligence/jupytergitlabci.git<\n>git add .<\n>git commit -m "Initial commit"<\n>git push --set-upstream origin main
+cp `../jupyterreports/231205 Month_end_Report_FlinFlon.ipynb` ./notebooks.ipynb
+ls
+rm notebooks.ipynb
+cp `../jupyterreports/231205 Month_end_Report_FlinFlon.ipynb` ./notebooks.ipynb
+ls
+git add .
+git commit -m "jupyter"
+git push
+ls
+nvim intro.md
+rm intro.md
+rm markdown.md
+nvim _config.yml
+ls
+nvim references.bib
+rm references.bib
+nvim _toc.yml
+git add .
+git commit -m "clean"
+git push
+nvim .gitignore
+python -m virtualenv env
+python -m venv env
+source env_nu/bin/activate.nu
+ls
+nvim
+git add . 
+git commit -m "test"
+git push
+nvim 
+l
+ls
+nvim monthend.ipynb
+nvim mon
+nvim monthend.ipynb
+nvim _config.yml
+nvim
+systemctl restart opam
+nvim
+ranger
+cd /Code/
+ls
+systemctl status ollama
+cd huggingface/
+ls
+cd hub
+ls
+nvim Modelfile
+ollama
+ollama list
+ollama create coder -f Modelfile
+ls models--TheBloke--deepseek-coder-33B-instruct-GGUF/
+ls models--TheBloke--deepseek-coder-33B-instruct-GGUF/refs/
+ls
+ls models--TheBloke--deepseek-coder-33B-instruct-GGUF/refs/
+ls
+rm -rf models--TheBloke--deepseek-coder-33B-instruct-GGUF/
+ollama help
+ollama list
+cd /Code/
+mkdir ollama
+mv /usr/share/ollama/* ollama/
+rm -r /usr/share/ollama/
+sudo rm -rf /usr/share/ollama/
+ln -s ollama/ /usr/share/ollama
+sudo ln -s ollama/ /usr/share/ollama
+ollama
+ollama list
+ls /usr/share/ollama
+cd /usr/share/ollama
+ls ollama/
+cd ollama/
+ls
+man ln
+ls
+cd ..
+ollama list
+ls ollama/
+ollama
+ollama run deepseek-coder:6.7b
+sudo ls ollama/
+rm -rf
+rm -rf ollama/
+rm -rf /usr/share/ollama
+sudo rm -rf /usr/share/ollama
+ollama list
+sudo ollama list
+mkdir /usr/share/ollama
+sudo mkdir /usr/share/ollama
+ollama list
+sudo ollama list
+nvim /etc/systemd/system/ollama.service
+sudo nvim /etc/systemd/system/ollama.service
+systemd reload
+systemd reload ollama
+systemd reload ollama.service
+systemd restart ollama.service
+systemctl restart ollama
+systemctl daemon-reload
+systemctl restart ollama
+ollama
+ollama list
+ollama serve
+systemctl start ollama.service
+ollama list
+ollama
+ollama list
+systemctl status ollama
+ollama run deepseek-coder:6.7b
+ollama pull deepseek-coder:6.7b
+nvim /etc/systemd/system/ollama.service
+sudo nvim /etc/systemd/system/ollama.service
+ollama serve
+systemc restart ollama
+systemctl restart ollama
+systemctl daemon-reload
+systemctl restart ollama
+ollama list
+systemctl status ollama
+ollama pull deepseek-coder:6.7b
+ollama serve
+systemctl resart ollama.servive
+systemctl resart ollama.service
+systemctl restart ollama.service
+systemctl status ollama
+systemctl stop ollama.service
+systemctl start ollama.service
+systemctl status ollama
+nvim /etc/systemd/system/ollama.service
+yay -Ss ollama
+sudo curl -L https://ollama.ai/download/ollama-linux-amd64 -o /usr/bin/ollama<\n>sudo chmod +x /usr/bin/ollama
+nvim /etc/systemd/system/ollama.service
+sudo nvim /etc/systemd/system/ollama.service
+sudo nvim /etc/systemd/system/ollama.service.d/ollama.conf
+sudo mkdir /etc/systemd/system/ollama.service.d
+sudo nvim /etc/systemd/system/ollama.service.d/ollama.conf
+systemctl restart ollama
+systemctl daemon-reload
+systemctl restart ollama
+systemctl status ollama
+sudo systemctl daemon-reload<\n>sudo systemctl enable --now ollama
+ollama
+ollama list
+systemctl status ollama
+systemctl start ollama
+systemctl status ollama
+mkdir /SSD500/Code/ollama
+systemctl restart ollama
+systemctl status ollama
+ollama serve
+sudo systemctl daemon-reload<\n>sudo systemctl enable ollama
+journalctl -u ollama
+sudo systemctl daemon-reload<\n>sudo systemctl enable ollama
+journalctl -u ollama
+mkdir /usr/share/ollama
+sudo systemctl daemon-reload<\n>sudo systemctl enable ollama
+journalctl -u ollama
+system
+systemctl status ollama
+ollama list
+systemctl status ollama
+sudo systemctl daemon-reload<\n>sudo systemctl enable ollama
+systemctl restart ollama
+systemctl status ollama
+journalctl -u ollama
+ollama list
+journalctl -u ollama
+ollama serve
+ollama run deepseek-coder:6.7b
+systemctl restart ollama
+journalctl -u ollama
+cd ollama/
+cd ..
+cd /Code/
+git clone https://github.com/ivanfioravanti/chatbot-ollama.git
+cd chatbot-ollama/
+npm ci
+curl https://ollama.ai/install.sh | sh
+systemctl restart ollama
+systemctl status ollama
+mv /etc/system/ollama.service.d ~/
+sudo mv /etc/system/ollama.service.d ~/
+systemctl enable ollama
+systemctl status ollama
+sudo mv /etc/system/ollama.service.d ~/
+sudo mv /etc/systemd/system/ollama.service.d/ ~/
+systemctl restart ollama
+systemctl daemon-reload
+systemctl restart ollama
+systemctl status ollama
+journalctl -u ollama
+systemctl status ollama
+cd /Code/chatbot-ollama/
+ollama list
+npm run dev
+systemctl status ollama
+cd /usr/share/ollama/.ollama
+cd /usr/share/ollama/
+mkdir .ollama
+sudo mkdir .ollama
+journalctl -u ollama
+systemctl restart ollama
+journalctl -u ollama
+sudo chmod 755 /usr/share/ollama
+systemctl restart ollama
+journalctl -u ollama
+systemctl status ollama
+journalctl -u ollama
+tail journalctl -u ollama
+tail | journalctl -u ollama
+head | journalctl -u ollama
+journalctl -u ollama
+sudo chmod -R 755 /usr/share/ollama
+systemctl restart ollama
+systemctl status ollama
+journalctl -u ollama
+ls /usr/share/ollama/
+sudo chown -R ollama /usr/share/ollama
+systemctl restart ollama
+systemctl status ollama
+mv ollama.service.d/ /etc/systemd/system/
+sudo mv ollama.service.d/ /etc/systemd/system/
+systemctl restart ollama
+systemctl daemon-reload
+systemctl restart ollama
+systemctl status ollama
+journalctl -u ollama
+systemctl restart ollama
+systemctl status ollama
+ls /SSD500/Code/ollama/
+journalctl -u ollama
+journalctl -u -n ollama
+journalctl -n ollama
+journalctl -u ollama
+journalctl -u ollama -n
+sudo chown -R ollama /SSD500/Code/ollama/
+systemctl restart ollama
+journalctl -u ollama -n
+cd /Code/chatbot-ollama/
+ls
+ollama list
+ollama pull deepseek-coder:6.7b
+htop
+sudo plist | tabby
+sudo plist | grep
+sudo plist | grep tabby
+tabby
+htoo
+ollama pull mistral
+journalctl -u ollama -n
+ollama
+docker ps -a
+docker start tabbyml
+docker start tabby
+docker ps -a
+docker rm 86e12f013bc7 
+86e12f013bc7 docker stop c7535e52f610
+docker ps -a
+nvim
+docker stop c7535e52f610
+docker rm c7535e52f610
+docker run -dit --restart always --gpus all -p 8080:8080 -v /Storage/.tabby:/data tabbyml/tabby serve --model TabbyML/StarCoder-1B --device cuda
+docker ps -a
+systemctl stop ollama
+docker run -d --restart always --gpus=all -v /SSD500/Code/ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+docker ps -a
+npm run dev
+docker logs
+docker logs ollama
+docker stop tabbyml/tabby
+docker ps
+docker ps --format "{{.ID}}  {{.Names}}"
+docker
+docker stop 9cb4cb416a13  
+docker logs ollama
+docker restart ollama
+docker ps
+docker ps -a
+docker logs ollama
+ollama status
+ollama
+docker ps -a
+npm run dev 
+docker stop bc049c8e6aa1 
+docker start tabbyml/tabby
+docker start 9cb4cb416a13
+docker ps -a
+tabby
+systemctl start ollama
+cd /Stora
+cd /Storage/logseq/
+ls
+cd pages/
+ls
+nvim
+docker stop 9cb4cb416a13  
+docker run -dit --restart always --gpus all -p 8080:8080 -v /Storage/.tabby:/data tabbyml/tabby serve --model TabbyML/DeepseekCoder-6.7B --device cuda
+docker ps 
+ipconfig
+ifconfig
+exit
+ssh bigserver.local
+ssh fin@bigserver.local
+cd /Storage/logseq/
+nvim
+tmuc
+shell
+cd /Code/jupyterreports/
+ls
+ls `Monthly Reports/`
+mv `Monthly Reports/Installation_report_Victoria_231006.ipynb` Victoria
+mv `Monthly Reports/DVBA_Month_end_Report_231102.ipynb` Victoria/
+mv `Monthly Reports/DVBA_Month_end_Report_231102.pdf` Victoria/
+mv `Monthly Reports/Month_end_Victoria_231023.ipynb` Victoria/
+mv `Monthly Reports/Nanaimo_231005.ipynb` Nanaimo/
+mv `Monthly Reports/`Nanaimo*
+mv `Monthly Reports/`Nanaimo* Nanaimo/
+mv `Monthly Reports/Nanaimo_Month_end_Report_231102.ipynb` Nanaimo/
+mv `Monthly Reports/Nanaimo_Month_end_Report_231102.pdf` Nanaimo/
+ls `Monthly Reports/`
+mkdir Reports/archive
+mv `Monthly Reports/`* Reports/archive/
+mv `Monthly Reports/`/* Reports/archive/
+mv `Monthly Reports/*` Reports/archive/
+ls `Monthly Reports/`
+rm -rf `Monthly Reports/`
+ls
+cd /Code/jupyterreports/
+ls
+docker ps -a
+docker logs tabbyml/tabby
+docker logs tabby
+docker logs xenodochial_heyrovsky
+docker stop xenodochial_heyrovsky
+docker ps -a
+docker start eloquent_thompson
+git add .
+git commit -m "overlayed bar and line timeseries"
+git push
+ssh 'admin:Production@52.60.235.160' -p 2222
+pwd
+ssh 'admin:Production@52.60.235.160' -p 2222
+yay -Ss rofi-chrome-profile-launcher<\n>
+nvim .config/rofi/
+nvim .config/bspwm/scripts/keybindings_rofi.sh
+rofi -modi 'Chrome Profile':/path/to/rofi-chrome-profile-launcher.sh -show 'Chrome Profile'
+cd .config/rofi/
+nvim rofi-chrome-profile-launcher.sh
+rofi -modi 'Chrome Profile':/home/fin/.config/rofi/rofi-chrome-profile-launcher.sh -show 'Chrome Profile'
+chmod -x rofi-chrome-profile-launcher.sh
+nvim config.rasi
+cd ..
+nvim bspwm/bspwmrc
+bspc wm -r
+nvim bspwm/bspwmrc
+nvim rofi/rofi-chrome-profile-launcher.sh
+rofi/rofi-chrome-profile-launcher.sh
+chmod -x rofi/rofi-chrome-profile-launcher.sh
+rofi/rofi-chrome-profile-launcher.sh
+sudo rofi/rofi-chrome-profile-launcher.sh
+rofi/rofi-chrome-profile-launcher.sh
+yay -Ss jupynium
+openssl rand -hex 32
+ls $HOME
+ls $env.HOME
+ls .config/google-chrome/
+docker ps -a
+docker start ollama
+systemctl status ollama
+docker start ollama
+docker ps -a
+systemctl status ollama-webui
+cd /Code
+ls
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+docker ps -a
+vd
+cd /Code
+ls
+ping 3.97.3.94
+curl --location 'http://3.97.3.94:6060/posts/sensors/victoria%20BIA?x-api-key=51864b76-73da-4207-a03d-62faf74ef085' \<\n>--header 'api-key: 51864b76-73da-4207-a03d-62faf74ef085'<\n>
+curl --location 'http://3.97.3.94:6060/posts/sensors/victoria%20BIA?x-api-key=51864b76-73da-4207-a03d-62faf74ef085'--header 'api-key: 51864b76-73da-4207-a03d-62faf74ef085'<\n>
+curl --location 'http://3.97.3.94:6060/posts/sensors/victoria%20BIA?api-key=51864b76-73da-4207-a03d-62faf74ef085'--header 'api-key: 51864b76-73da-4207-a03d-62faf74ef085'<\n>
+git add .
+git commit -m "overlayed bar and line timeseries"
+git push
+git add . 
+git commit -m "API integration example"
+git push
+git add . 
+git commit -m "API integration example"
+ls Reports/Victoria/
+git add Reports/
+nvim .gitignore
+git add .
+git commit -m "API integration example"
+ls 
+nvim .gitignore
+git add .
+git commit -m "API integration example"
+git rm env
+git rm -r env
+git rm -r env_nu/
+git rm -r lib
+git add .
+git commit -m "API integration example"
+nvim README.md
+git push
+nvim .gitignore
+ls
+nvim .gitignore
+git rm -r bin
+git add .
+git commit -m "API integration example"
+git push
+ls
+ls env/
+ls -a env/
+cd /Code
+git clone git@gitlab.com:avenueintelligence/datadelivery.git<\n>cd datadelivery<\n>git switch --create main<\n>touch README.md<\n>git add README.md<\n>git commit -m "add README"<\n>git push --set-upstream origin main<\n>
+git add ../jupyterGitlabCI/
+git add ../jupyterreports/
+git commit -m "submodules"
+git push
+docker ps -a
+docker stop xenodochial_heyrovsky
+docker ps -a
+docker restart ollama-webui
+docker ps -a
+docker start ollama
+docker stop ollama-webui
+source env_nu/bin/activate.nu
+git add .
+git commit -m "heading coordinate conversion"
+git push
+git add .
+git commit -m "date formatting"
+git push
+git add .
+git commit -m "timeseries axis formatting"
+git push
+git add .
+git commit -m "checkpoint - waiting on fixing keys in ts api ISSUE"
+git push
+git add .
+git commit -m "ISSUE need a feature to omit borked devices"
+git push
+git add .
+git commit -m "FEATURE to omit borked devices"
+git push
+git add .
+less README.md
+cat README.md
+ls
+ssh fin@bigserver.local
+git add .
+git pull
+git stash
+git pull
+git branch -a
+cd /Code/avenuecicd/
+git pull
+git stash
+git pull
+git pull origin/main
+git branch -a
+cd ..
+cd avenuecicd/
+ls /Code/
+tms config --paths /Code/*
+git pull
+git branch demo
+git commit -m "demo"
+git push
+git checkout demo
+git push
+git add .
+git push origin demo
+git branch Nanaimo
+cd /Code/avenuecicd/
+git pull
+git branch -a
+cd ..
+tms
+git pull
+git branch -a
+git checkout main
+git pul
+git pull
+nvim generate_index.sh
+chmod -x generate_index.sh
+git add .
+git commit -m "shell script to make index"
+git push
+git pull
+chmod -x generate_index.sh
+ls -l generate_index.sh
+chmod -x generate_index.sh
+docker ps -a 
+sudo reboot now
+eos-update --yay
+yay -Syyu
+yay -S npm
+ssh fin@bigserver.local 
+fin@192.168.4.82
+git add .
+git commit -m "LoW csv"
+git push
+git add .
+git commit -m "LoW summary stats"
+git push
+yay -Ss avahi-resolve
+yay -Ss avahi
+systemctl enable --now avahi-resolve
+systemctl enable --now avahi
+ssh fin@192.168.4.92
+ping bigServer
+ping bigServer.local
+systemctl enable --now avahi-daemon
+ping bigServer.local
+avahi-resolve-host-name some-host-name.local<\n>
+avahi-browse --all --ignore-local --resolve --terminate
+ssh fin@192.168.4.92
+ping bigServer.local
+ssh fin@192.168.4.82
+avahi-browse --all --ignore-local --resolve --terminate
+ping Tent.local
+ssh fin@192.168.4.92
+resolvectl domain
+systemctl status systemd-resolved
+systemctl status avahi-daemon
+nvim /etc/nsswitch.conf
+ssh fin@bigserver.local 
+ssh fin@192.168.4.92
+ssh fin@192.168.4.92
+ssh fin@192.168.4.92
+qui
+exi
+exit
+ping bigServer.local
+$nu.env-path
+cd .config/
+git add nushell/
+nvim M<\n>/home/fin/.config/nushell/env.nu
+nvim /home/fin/.config/nushell/env.nu
+nvim /home/fin/.config/nushell/config.nu
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu
+nvim /home/fin/.config/nushell/config.nu
+source .zoxide.nu
+nvim /home/fin/.config/nushell/config.nu
+nvim /home/fin/.config/nushell/env.nu
+nvim /home/fin/.config/nushell/config.nu
+source .zoxide.nu
+nvim .zoxide.nu
+source .zoxide.nu
+starship
+starship 
+starship init
+starship print-config
+starship
+cd .config/
+git add nushell/
+git status
+git rm -r ytdlp-gui/
+git reset
+git add nushell/
+git add bspwm/
+git add nvim
+git add sxhkd/
+git add tms
+nvim tms/default-config.toml
+rm -rf tms/*
+tms config --paths /Storage/Code/*
+nvim tms/default-config.toml
+git rm tms/
+git rm -r tms/
+git reset
+git add bspwm/
+git add sxhkd/
+git add nvim
+git add nushell/
+echo -e "\xf0\x9f\x90\x8d"<\n>echo -e "\xee\x82\xa0"<\n>
+$env 
+echo -e "\xf0\x9f\x90\x8d"<\n>echo -e "\xee\x82\xa0"<\n>
+nvim .config/nushell/env.nu
+source .config/nushell/env.nu
+echo -e "\xf0\x9f\x90\x8d"<\n>echo -e "\xee\x82\xa0"<\n>
+echo
+echo -e "\xf0\x9f\x90\x8d"<\n>echo -e "\xee\x82\xa0"<\n>
+echo --e "\xf0\x9f\x90\x8d"<\n>echo --e "\xee\x82\xa0"<\n>
+curl -sS https://starship.rs/install.sh | sh
+nvim .config/nushell/env.nu
+nvim .config/nushell/config.nu
+cd .config/

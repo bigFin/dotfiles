@@ -17,6 +17,10 @@ super + d
                 -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Qogir-dark" -font "Droid Sans Regular 10"
 
+# rofi emoji
+super + r
+  rofi -modi emoji -show emoji -kb-custom-1 Ctrl+c
+
 # show open window
 super + ctrl + d
 	rofi -modi drun -show window -line-padding 4 \
